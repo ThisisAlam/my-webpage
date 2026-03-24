@@ -10,6 +10,20 @@ body {
     margin-top: 0;
 }
 
+/* image */
+.profile-pic {
+    width: 200px;
+    height: 220px;
+    border: 5px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.profile-pic:hover, .profile-pic:focus {
+    transform: scale(1.05);
+    filter: brightness(1.05);
+}
+
 /* Container */
 .container {
     width: 600px;
@@ -41,7 +55,7 @@ section h2 .bold {
     font-weight: bold;
 }
 h1 .bold, h2 .bold, .name, time {
-    color: #99d930;
+    color: dodgerblue;
 }
 section h3 {
     font-size: 36px;
@@ -50,6 +64,7 @@ section h3 {
 }
 section p {
     margin-bottom: 0;
+    line-height: 25px;
 }
 .bold {
     display: block;
@@ -60,9 +75,10 @@ section p {
     margin: 2px;
 }
 
+
 /* Link */
 .link {
-    color: #99d930;
+    color: dodgerblue;
     font-weight: 900;
     cursor: pointer;
 }
@@ -80,23 +96,36 @@ section p {
     background-color: #252525;
     color: #fff;
 }
+.color-red {
+    color:dodgerblue;
+}
 
 /* Buttons */
 
 .btn1, .btn2 {
-    background-color: #99d930;
+    background-color: dodgerblue;
     color: #252525;
     padding:10px 20px; 
     border: none;
     font-size: 20px;
     font-weight: bold;
     margin-top: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 .btn1:hover, .btn1:focus {
+    transform: translateY(-3px);
     background-color: #252525;
     color: #fff;
 }
 .btn2:hover, .btn2:focus {
-    background-color: #fff;
+    transform: translateY(-3px);
+    background-color: #fd3a4a;;
     color: #252525;
+}
+.btn1:active {
+    transform: translateY(3px);
+    }
+.btn2:active {
+    transform: translateY(3px);
 }
