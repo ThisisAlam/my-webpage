@@ -52,15 +52,15 @@ my-webpage/
 
 ### 🧑‍💻 Hero Section
 
-![Hero Section](Screenshots/screenshot-1.png)
+![Hero Section](screenshots/screenshot-1.png)
 
 ### 💡 About Section
 
-![About Section](Screenshots/screenshot-2.png)
+![About Section](screenshots/screenshot-2.png)
 
 ### 🚀 Project Section
 
-![Project Section](Screenshots/screenshot-3.png)
+![Project Section](screenshots/screenshot-3.png)
 
 ---
 
