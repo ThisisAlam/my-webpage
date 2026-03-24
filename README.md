@@ -6,10 +6,9 @@ A personal webpage built using **HTML & CSS**, designed to showcase my journey a
 
 ## 📌 About This Project
 
-This project serves two purposes:
-a **personal branding webpage** and a **hands-on practice of CSS essentials**.
+This project serves as both a **personal branding webpage** and a **hands-on CSS practice project**.
 
-It reflects my approach to learning—building real projects, focusing on clean design, and gradually integrating more advanced concepts in web development and AI.
+It reflects my learning approach—building real projects, focusing on clean design, and gradually moving toward full-stack development with AI integration.
 
 ---
 
@@ -18,9 +17,9 @@ It reflects my approach to learning—building real projects, focusing on clean 
 * Clean and minimal UI
 * Responsive centered layout
 * Custom typography using Google Fonts
-* Image and button hover effects
+* Interactive hover effects (image & buttons)
 * Structured sections for introduction and featured project
-* Smooth transitions and interactive elements
+* Smooth transitions and simple animations
 
 ---
 
@@ -40,13 +39,34 @@ my-webpage/
 │── style.css
 │── img/
 │   └── profile.png
+│── Screenshots/
+│   ├── screenshot 1.png
+│   ├── screenshot 2.png
+│   └── screenshot 3.png
+│── README.md
 ```
+
+---
+
+## 📸 Screenshots
+
+### 🧑‍💻 Hero Section
+
+![Hero Section](Screenshots/screenshot(1).png)
+
+### 💡 About Section
+
+![About Section](Screenshots/screenshot(2).png)
+
+### 🚀 Project Section
+
+![Project Section](Screenshots/screenshot(3).png)
 
 ---
 
 ## 🌍 Live Project
 
-=> Not yet available.
+🔗 [https://my-webpage-alam.netlify.app](https://my-webpage-alam.netlify.app)
 
 ---
 
@@ -72,3 +92,7 @@ my-webpage/
 This project is part of my continuous journey in **Full-Stack AI Web Development**, where I focus on learning by building and improving through real-world projects.
 
 ---
+
+If something still doesn’t show in preview, it’s usually because of **spaces in file names**—you handled it correctly with `%20`, so this should render perfectly.
+
+If you want next step: we can make this README look like a **top GitHub project (badges, styling, sections that stand out)**.
