@@ -1,0 +1,8 @@
+.container {
+    max-width: 570px;
+    margin: 10px auto;
+    text-align: center;
+}
+.profile-pic {
+    width: 200px;
+}
