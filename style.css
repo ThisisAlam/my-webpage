@@ -1,8 +1,102 @@
-.container {
-    max-width: 570px;
-    margin: 10px auto;
+
+
+/* Body */
+body {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 0;
 }
-.profile-pic {
-    width: 200px;
+
+/* Container */
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Typography */
+header h1 {
+    font-size: 60px;
+}
+section h2 {
+    font-size: 42px;
+    margin-top: 0;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+header h1, section h2 {
+    font-weight: 300;
+    margin-top: 0;
+}
+header h1 .bold {
+    font-size: 80px;
+}
+section h2 .bold {
+    font-size: 60px;
+}
+.name, time {
+    font-weight: bold;
+}
+h1 .bold, h2 .bold, .name, time {
+    color: #99d930;
+}
+section h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+}
+section p {
+    margin-bottom: 0;
+}
+.bold {
+    display: block;
+    font-weight: bold;
+}
+.small-text {
+    font-size: 16px;
+    margin: 2px;
+}
+
+/* Link */
+.link {
+    color: #99d930;
+    font-weight: 900;
+    cursor: pointer;
+}
+.link:hover, .link:focus {
+    color: #c3a913;
+}
+
+/* background color */
+.color {
+    background-color: #fff;
+    color: #252525;
+    padding: 100px;
+}
+.inverse {
+    background-color: #252525;
+    color: #fff;
+}
+
+/* Buttons */
+
+.btn1, .btn2 {
+    background-color: #99d930;
+    color: #252525;
+    padding:10px 20px; 
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.btn1:hover, .btn1:focus {
+    background-color: #252525;
+    color: #fff;
+}
+.btn2:hover, .btn2:focus {
+    background-color: #fff;
+    color: #252525;
 }
