@@ -52,15 +52,15 @@ my-webpage/
 
 ### 🧑‍💻 Hero Section
 
-![Hero Section](Screenshots/screenshot(1).png)
+![Hero Section](Screenshots/screenshot-1.png)
 
 ### 💡 About Section
 
-![About Section](Screenshots/screenshot(2).png)
+![About Section](Screenshots/screenshot-2.png)
 
 ### 🚀 Project Section
 
-![Project Section](Screenshots/screenshot(3).png)
+![Project Section](Screenshots/screenshot-3.png)
 
 ---
 
@@ -92,7 +92,3 @@ my-webpage/
 This project is part of my continuous journey in **Full-Stack AI Web Development**, where I focus on learning by building and improving through real-world projects.
 
 ---
-
-If something still doesn’t show in preview, it’s usually because of **spaces in file names**—you handled it correctly with `%20`, so this should render perfectly.
-
-If you want next step: we can make this README look like a **top GitHub project (badges, styling, sections that stand out)**.
